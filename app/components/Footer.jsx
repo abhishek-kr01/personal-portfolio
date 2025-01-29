@@ -8,25 +8,31 @@ const Footer = ({ isDarkMode }) => {
       <div className="text-center">
         <Image
           src={isDarkMode ? assets.logo_dark : assets.logo}
-          alt=""
+          alt="Logo"
           className="w-36 mx-auto mb-2"
         />
 
         <div className="w-max flex items-center gap-2 mx-auto">
           <Image
             src={isDarkMode ? assets.mail_icon_dark : assets.mail_icon}
-            alt=""
+            alt="Mail Icon"
             className="w-6"
           />
           abhishekmdp11@gmail.com
         </div>
       </div>
 
-      <div className="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6">
-        <p>© 2025 Abhishek Kumar. All Rights Reserved.</p>
-        <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-0">
+      <div className="text-center sm:flex items-center justify-between border-t border-gray-400 mx-4 sm:mx-[10%] mt-12 py-6">
+        <p className="text-sm sm:text-base">
+          © 2025 Abhishek Kumar. All Rights Reserved.
+        </p>
+        <ul className="flex items-center gap-6 justify-center mt-4 sm:mt-0">
           <li>
-            <a target="_blank" href="https://github.com/abhishek-kr01">
+            <a
+              target="_blank"
+              href="https://github.com/abhishek-kr01"
+              className="hover:underline"
+            >
               GitHub
             </a>
           </li>
@@ -34,12 +40,17 @@ const Footer = ({ isDarkMode }) => {
             <a
               target="_blank"
               href="https://www.linkedin.com/in/abhishek-kumar-6202249339ak/"
+              className="hover:underline"
             >
               LinkedIn
             </a>
           </li>
           {/* <li>
-            <a target="_blank" href="https://github.com/abhishek-kr01">
+            <a
+              target="_blank"
+              href="https://github.com/abhishek-kr01"
+              className="hover:underline"
+            >
               Instagram
             </a>
           </li> */}
