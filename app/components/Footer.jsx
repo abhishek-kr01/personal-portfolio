@@ -23,7 +23,9 @@ const Footer = ({ isDarkMode }) => {
       </div>
 
       <div className="text-center sm:flex items-center justify-between border-t border-gray-400 mx-4 sm:mx-[10%] mt-12 py-6">
-        <p className="text-sm sm:text-base">© Abhishek Kumar. Made With ❤</p>
+        <p className="text-sm sm:text-base">
+          © Abhishek Kumar. All Rights Reserved. Made With ❤
+        </p>
         <ul className="flex items-center gap-6 justify-center mt-4 sm:mt-0">
           <li>
             <a
@@ -43,15 +45,24 @@ const Footer = ({ isDarkMode }) => {
               LinkedIn
             </a>
           </li>
-          {/* <li>
+          <li>
             <a
               target="_blank"
-              href="https://github.com/abhishek-kr01"
+              href="https://x.com/Abhishek_kr__"
+              className="hover:underline"
+            >
+              Twitter
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://www.instagram.com/abhishek__kr.__/?hl=en"
               className="hover:underline"
             >
               Instagram
             </a>
-          </li> */}
+          </li>
         </ul>
       </div>
     </div>
