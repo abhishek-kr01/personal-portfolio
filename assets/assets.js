@@ -92,6 +92,18 @@ export const workData = [
     link: "https://github.com/abhishek-kr01/auth_nextjs",
   },
   {
+    title: "Restaurant Management",
+    description: "Restaurant Management System Backend Development",
+    bgImage: "/work-5.png",
+    link: "https://github.com/abhishek-kr01/Hotel_management-using-NodeJS",
+  },
+  {
+    title: "Face Attendance",
+    description: "Real-time face recognition for attendance.",
+    bgImage: "/work-4.png",
+    link: "https://github.com/abhishek-kr01/Face_Recognition",
+  },
+  {
     title: "Currency Converter",
     description: "Real-time currency conversion with React.",
     bgImage: "/work-2.png",
@@ -102,12 +114,6 @@ export const workData = [
     description: "Real-time weather app with error handling.",
     bgImage: "/work-3.png",
     link: "https://github.com/abhishek-kr01/Weather_app_-Basic-",
-  },
-  {
-    title: "Face Attendance",
-    description: "Real-time face recognition for attendance.",
-    bgImage: "/work-4.png",
-    link: "https://github.com/abhishek-kr01/Face_Recognition",
   },
 ];
 
