@@ -34,7 +34,7 @@ function Header() {
         transition={{ duration: 0.8, delay: 0.5 }}
         className="text-3xl sm:text-6xl lg:text-[66px] font-Ovo"
       >
-        Software Engineer.
+        Software Developer.
       </motion.h1>
 
       <motion.p
@@ -43,13 +43,13 @@ function Header() {
         transition={{ duration: 0.6, delay: 0.7 }}
         className="max-w-2xl mx-auto font-Ovo text-sm sm:text-base"
       >
-        As a Software Engineer, I specialize in building scalable, efficient
-        applications with expertise in Java, JavaScript, and modern web
-        technologies. I have experience in both frontend and backend
-        development, designing user-friendly interfaces, developing APIs, and
-        managing databases. My passion for problem-solving drives me to deliver
-        high-quality software solutions that optimize performance and user
-        experience.
+        As a Software Developer, I specialize in building scalable and efficient
+        applications with expertise in JavaScript, MERN Stack (MongoDB,
+        Express.js, React.js, Node.js), Core Java, Python and modern web
+        technologies. With experience in both frontend and backend development,
+        I focus on designing user-friendly interfaces, developing APIs, and
+        managing databases. Dedicated to delivering high-quality software
+        solutions that enhance performance and user experience.
       </motion.p>
 
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">

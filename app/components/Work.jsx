@@ -35,10 +35,11 @@ const Work = ({ isDarkMode }) => {
         transition={{ delay: 0.7, duration: 0.5 }}
         className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo"
       >
-        Here are some of my latest projects, where I blend creativity with
-        technology to build efficient and user-friendly solutions. From frontend
-        designs to backend logic, I focus on delivering high-quality, scalable
-        applications. Explore my work and see how I bring ideas to life!
+        Here are some of my latest projects, where I combine technology and
+        innovation to build efficient, user-friendly solutions. From frontend
+        design to backend development, I focus on delivering high-quality,
+        scalable applications. Explore my work to see how I turn ideas into
+        reality!
       </motion.p>
 
       <motion.div

@@ -35,11 +35,11 @@ const Services = () => {
         transition={{ delay: 0.8, duration: 0.5 }}
         className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo text-sm sm:text-base"
       >
-        I specialize in creating scalable and responsive web applications using
-        React.js, Node.js, and Express.js. Offering expert frontend development
-        with modern UI frameworks and robust backend development with efficient
-        server-side solutions. I also provide seamless API integration and
-        database management using SQL and MongoDB.
+        I specialize in building scalable and responsive web applications using
+        React.js, Node.js, and Express.js. With expertise in frontend
+        development using modern UI frameworks and robust backend development, I
+        deliver efficient server-side solutions. I also ensure seamless API
+        integration and effective database management with SQL and MongoDB.
       </motion.p>
 
       <motion.div

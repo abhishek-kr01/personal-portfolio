@@ -54,20 +54,17 @@ const About = ({ isDarkMode }) => {
           className="flex-1"
         >
           <p className="mb-10 max-w-2xl font-Ovo text-base sm:text-lg">
-            Hi, I’m Abhishek Kumar, a passionate Full-Stack Developer with a
-            strong foundation in Core Java. I specialize in building scalable
-            and efficient web applications using modern technologies like
-            JavaScript, React.js, Node.js, and Express.js. Additionally, I am
-            proficient in C, Java, Python, and Go, with a solid understanding of
-            Object-Oriented Programming (OOPs), enabling me to develop versatile
-            solutions for diverse challenges. With experience in both frontend
-            and backend development, I work with HTML, CSS, Tailwind CSS, SQL,
-            and MongoDB to create seamless and responsive applications. I focus
-            on integrating RESTful APIs to ensure smooth data flow across
-            platforms, emphasizing clean, maintainable code and high-performance
-            solutions. I thrive in collaborative environments, constantly
-            striving for continuous learning and innovation to deliver intuitive
-            user experiences.
+            I am a Full Stack Developer with expertise in MERN Stack (MongoDB,
+            Express.js, React.js, Node.js), Core Java, Python, and Go. Skilled
+            in building scalable, efficient, and user-friendly web applications
+            using modern technologies. With experience in both frontend and
+            backend development, I work with HTML, CSS, Tailwind CSS, SQL, and
+            MongoDB to create seamless and responsive applications. I focus on
+            integrating RESTful APIs to ensure smooth data flow across platforms
+            while maintaining clean, maintainable code and optimizing
+            performance. Experienced in developing high-performance solutions,
+            collaborating in teams, and continuously learning new technologies
+            to build intuitive user experiences.
           </p>
 
           <motion.ul
