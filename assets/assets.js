@@ -92,6 +92,12 @@ export const workData = [
     link: "https://github.com/abhishek-kr01/auth_nextjs",
   },
   {
+    title: "FinFetch Platform",
+    description: "AI-powered financial analysis platform",
+    bgImage: "/work-6.png",
+    link: "https://github.com/abhishek-kr01/FinFetch.git",
+  },
+  {
     title: "Restaurant Management",
     description: "Restaurant Management System Backend Development",
     bgImage: "/work-5.png",
