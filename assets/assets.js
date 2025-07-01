@@ -190,20 +190,15 @@ export const infoList = [
     title: "Projects",
     description: (
       <>
-        <strong>Blogsy:</strong> An AI-powered blogging platform with a rich
-        Markdown editor and intelligent content generation using modern React
-        and FastAPI stack. <br />
+        <strong>Blogsy:</strong> AI-powered dynamic blogging platform. <br />
         <br />
-        <strong>AuthGuard:</strong> A secure MERN Stack-based authentication
-        system with JWT, role-based access control, and protected routes. <br />
+        <strong>AuthGuard:</strong> Secure MERN auth with role control. <br />
         <br />
-        <strong>FinFetch:</strong> A real-time financial insights platform
-        offering stock data, market news, and AI-powered analytics using React,
-        FastAPI, and MongoDB. <br />
+        <strong>FinFetch:</strong> Real-time financial insights dashboard.{" "}
         <br />
-        <strong>Restaurant Management System:</strong> A full-stack service
-        management system designed to handle user requests, admin actions, and
-        real-time tracking. <br />
+        <br />
+        <strong>RestoreNet Management System:</strong> Service request and admin
+        portal. <br />
         <br />
         ...and more on GitHub!
       </>
