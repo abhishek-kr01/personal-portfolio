@@ -86,7 +86,13 @@ export const assets = {
 
 export const workData = [
   {
-    title: "Full Stack Project",
+    title: "Blogsy",
+    description: "Blogsy AI-Powered Blog Management System",
+    bgImage: "/work-7.png",
+    link: "https://github.com/abhishek-kr01/Blogsy.git",
+  },
+  {
+    title: "AuthGuard",
     description: "A Secure Next.js Authentication System",
     bgImage: "/work-1.png",
     link: "https://github.com/abhishek-kr01/auth_nextjs",
@@ -160,7 +166,7 @@ export const infoList = [
     iconDark: assets.code_icon_dark,
     title: "Tech Stack",
     description:
-      "C, Java, JavaScript, Python, OOPs, React.js, Node.js, Express.js, Tailwind CSS, SQL, MongoDB",
+      "JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, MongoDB, SQL, Python, Java, HTML, CSS, Tailwind CSS, RESTful APIs, OOPs",
   },
   {
     icon: assets.edu_icon,
@@ -168,12 +174,13 @@ export const infoList = [
     title: "Education",
     description: (
       <>
-        Masters in Computer Application <br />
-        Cochin University of Science and Technology (2023 - 2025) <br />
-        GPA: 7.58 <br />
-        Bachelors in Computer Application <br />
-        B N Mandal University Madhepura (2019 - 2022) <br />
-        GPA: 8.24
+        Master of Computer Applications (MCA) <br />
+        Cochin University of Science and Technology, 2023 – 2025 <br />
+        CGPA: 8.04 <br />
+        <br />
+        Bachelor of Computer Applications (BCA) <br />
+        B. N. Mandal University, Madhepura, 2019 – 2022 <br />
+        Percentage: 82.41%
       </>
     ),
   },
@@ -183,13 +190,22 @@ export const infoList = [
     title: "Projects",
     description: (
       <>
-        A Secure Next.js Authentication System. <br />
+        <strong>Blogsy:</strong> An AI-powered blogging platform with a rich
+        Markdown editor and intelligent content generation using modern React
+        and FastAPI stack. <br />
         <br />
-        Real-time currency conversion with React. <br />
+        <strong>AuthGuard:</strong> A secure MERN Stack-based authentication
+        system with JWT, role-based access control, and protected routes. <br />
         <br />
-        Real-time weather app with error handling. <br />
+        <strong>FinFetch:</strong> A real-time financial insights platform
+        offering stock data, market news, and AI-powered analytics using React,
+        FastAPI, and MongoDB. <br />
         <br />
-        ...and more!
+        <strong>Restaurant Management System:</strong> A full-stack service
+        management system designed to handle user requests, admin actions, and
+        real-time tracking. <br />
+        <br />
+        ...and more on GitHub!
       </>
     ),
   },

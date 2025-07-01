@@ -53,18 +53,34 @@ const About = ({ isDarkMode }) => {
           transition={{ duration: 0.6, delay: 0.7 }}
           className="flex-1"
         >
-          <p className="mb-10 max-w-2xl font-Ovo text-base sm:text-lg">
-            I am a Full Stack Developer with expertise in MERN Stack (MongoDB,
-            Express.js, React.js, Node.js), Core Java, Python, and Go. Skilled
-            in building scalable, efficient, and user-friendly web applications
-            using modern technologies. With experience in both frontend and
-            backend development, I work with HTML, CSS, Tailwind CSS, SQL, and
-            MongoDB to create seamless and responsive applications. I focus on
-            integrating RESTful APIs to ensure smooth data flow across platforms
-            while maintaining clean, maintainable code and optimizing
-            performance. Experienced in developing high-performance solutions,
-            collaborating in teams, and continuously learning new technologies
-            to build intuitive user experiences.
+          <p>
+            I am a passionate Full Stack Developer with a strong foundation in
+            the <strong>MERN Stack</strong> and <strong>Next.js</strong>, and a
+            deep interest in building modern, scalable, and user-focused web
+            applications. With hands-on experience in both frontend and backend
+            development, I love turning ideas into real products using
+            technologies like <strong>React</strong>, <strong>Node.js</strong>,{" "}
+            <strong>MongoDB</strong>, <strong>JavaScript</strong>,{" "}
+            <strong>TypeScript</strong>, <strong>Python</strong>, and{" "}
+            <strong>Java</strong>.
+          </p>
+          <p>
+            I’ve built and contributed to several full-stack applications with
+            clean architecture, RESTful API integration, and responsive design.
+            You can explore my work on GitHub:
+            <a
+              href="https://github.com/abhishek-kr01"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              here
+            </a>
+            .
+          </p>
+          <p>
+            Driven by curiosity and a problem-solving mindset, I enjoy
+            collaborating with teams, continuously learning, and crafting
+            applications that are not only functional but also meaningful.
           </p>
 
           <motion.ul

@@ -43,13 +43,13 @@ function Header() {
         transition={{ duration: 0.6, delay: 0.7 }}
         className="max-w-2xl mx-auto font-Ovo text-sm sm:text-base"
       >
-        As a Full Stack Developer, I specialize in building scalable and
-        efficient applications with expertise in JavaScript, MERN Stack
-        (MongoDB, Express.js, React.js, Node.js), Core Java, Python and modern
-        web technologies. With experience in both frontend and backend
-        development, I focus on designing user-friendly interfaces, developing
-        APIs, and managing databases. Dedicated to delivering high-quality
-        software solutions that enhance performance and user experience.
+        Full Stack Developer with a strong foundation in MERN Stack and Next.js,
+        skilled in building responsive, real-world web applications from end to
+        end. Proficient in JavaScript, TypeScript, Python, and Java, with
+        hands-on experience in creating user-friendly interfaces, developing
+        secure APIs, and working with databases like MongoDB and SQL. Passionate
+        about backend development, clean architecture, and building
+        performance-driven solutions that solve real problems.
       </motion.p>
 
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
