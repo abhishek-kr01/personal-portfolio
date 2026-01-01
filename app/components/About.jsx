@@ -349,12 +349,11 @@ const About = ({ isDarkMode }) => {
           className="flex-1"
         >
           <p>
-            I’m a <strong>Full Stack MERN Developer</strong> focused on building
+            I’m a <strong>Full Stack Software Engineer</strong> focused on building
             modern, scalable, and production-ready web applications. I work
             across the frontend and backend using{" "}
             <strong>React</strong>, <strong>Next.js</strong>,{" "}
-            <strong>Node.js</strong>, and <strong>Express</strong>, with a strong
-            emphasis on clean architecture and maintainable code.
+            <strong>Node.js</strong>, and <strong>Express</strong>, focusing on clean, maintainable architecture and secure <strong>REST API</strong> design.
           </p>
 
           <p className="mt-4">

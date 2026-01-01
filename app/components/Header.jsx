@@ -245,9 +245,9 @@ function Header() {
         transition={{ duration: 0.8, delay: 0.5 }}
         className="text-3xl sm:text-5xl lg:text-[47px] font-Ovo"
       >
-        Full Stack MERN Developer <br />
-        <span className="text-gray-600 dark:text-white/70">
-          Next.js | AI & Automation
+        Full Stack Software Engineer <br />
+        <span className="text-gray-600 dark:text-white/70 text-2xl sm:text-3xl lg:text-[37px] font-Ovo">
+          MERN | Next.js | Backend APIs | AI Automation
         </span>
       </motion.h1>
 
@@ -259,11 +259,11 @@ function Header() {
       >
         I build modern, scalable, and production-ready web applications using{" "}
         <strong>React</strong>, <strong>Next.js</strong>,{" "}
-        <strong>Node.js</strong>, and <strong>Express</strong>. I integrate{" "}
-        <strong>AI & automation features</strong> using{" "}
+        <strong>Node.js</strong>, and <strong>Express</strong>. I also integrate{" "}
+        <strong>AI-powered automation</strong> using{" "}
         <strong>Python</strong> and <strong>FastAPI</strong>, leveraging{" "}
-        <strong>OpenAI</strong> and <strong>Gemini APIs</strong> to build intelligent
-        chatbots, content generation, automated workflows and real-world solutions.
+        <strong>OpenAI</strong> and <strong>Gemini APIs</strong> to build features such as chatbots,
+        content generation, and automated workflows.
       </motion.p>
 
 

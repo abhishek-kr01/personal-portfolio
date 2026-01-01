@@ -612,7 +612,7 @@ export const infoList = [
     iconDark: assets.code_icon_dark,
     title: "Tech Stack",
     description:
-      "JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, MongoDB, MySQL PostgreSQL, Python, FastAPI, REST APIs, Git, GitHub, Docker",
+      "JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, REST APIs, Python, FastAPI, MongoDB, MySQL, PostgreSQL, Git, GitHub, Docker, Vercel, Render",
   },
   {
     icon: assets.edu_icon,

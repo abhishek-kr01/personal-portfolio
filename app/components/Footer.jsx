@@ -217,6 +217,17 @@ const Footer = ({ isDarkMode }) => {
         <ul className="flex items-center gap-6 justify-center mt-4 sm:mt-0">
           <li>
             <a
+              href="/Abhishek.pdf"
+              download
+              className="hover:underline"
+              aria-label="Download Abhishek's resume"
+            >
+              Resume
+            </a>
+          </li>
+
+          <li>
+            <a
               href="https://github.com/abhishek-kr01"
               target="_blank"
               rel="noreferrer noopener"
@@ -239,7 +250,7 @@ const Footer = ({ isDarkMode }) => {
             </a>
           </li>
 
-          <li>
+          {/* <li>
             <a
               href="https://x.com/Abhishek_kr__"
               target="_blank"
@@ -249,9 +260,9 @@ const Footer = ({ isDarkMode }) => {
             >
               X
             </a>
-          </li>
+          </li> */}
 
-          <li>
+          {/* <li>
             <a
               href="https://www.instagram.com/abhishek__kr.__/?hl=en"
               target="_blank"
@@ -261,18 +272,8 @@ const Footer = ({ isDarkMode }) => {
             >
               Instagram
             </a>
-          </li>
-
-          <li>
-            <a
-              href="/Abhishek.pdf"
-              download
-              className="hover:underline"
-              aria-label="Download Abhishek's resume"
-            >
-              Resume
-            </a>
-          </li>
+          </li> */}
+          
         </ul>
       </div>
     </footer>
