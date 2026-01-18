@@ -1,36 +1,127 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Abhishek Kumar – Portfolio 🚀
 
-## Getting Started
+A modern, responsive personal portfolio website built using **Next.js, React, and Tailwind CSS**.  
+This portfolio showcases my professional experience, projects, technical skills, and contact information.
 
-First, run the development server:
+🔗 Live Demo: https://personal-portfolio-abhishek-kr01s-projects.vercel.app 
+📂 GitHub: https://github.com/abhishek-kr01/personal-portfolio.git
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## ✨ Features
+
+- ⚡ Fast and SEO-friendly Next.js application
+- 🎨 Clean and responsive UI using Tailwind CSS
+- 🧩 Modular component-based architecture
+- 📱 Mobile-friendly layout
+- 🧭 Smooth navigation and section-based layout
+- 📄 Resume download support
+- 📬 Contact section for easy communication
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend**
+- Next.js
+- React.js
+- Tailwind CSS
+- JavaScript / TypeScript
+
+**Backend / APIs (Project Experience)**
+- Node.js
+- Express.js
+- REST APIs
+
+**AI & Automation (Project Experience)**
+- Python
+- FastAPI
+- OpenAI / Gemini APIs
+
+**Tools**
+- Git & GitHub
+- ESLint
+- Vercel (Deployment)
+
+---
+
+## 📂 Project Structure
+```
+portfolio/
+├── app/
+│ ├── components/
+│ │ ├── About.jsx
+│ │ ├── Contact.jsx
+│ │ ├── Experience.jsx
+│ │ ├── Footer.jsx
+│ │ ├── Header.jsx
+│ │ ├── Navbar.jsx
+│ │ ├── Services.jsx
+│ │ └── Work.jsx
+│ ├── globals.css
+│ ├── layout.js
+│ └── page.js
+├── public/
+├── assets/
+├── .env
+├── .gitignore
+├── eslint.config.mjs
+├── next.config.mjs
+├── package.json
+├── tailwind.config.mjs
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Getting Started
 
-## Learn More
+### 1. Clone the repository
+git clone https://github.com/abhishek-kr01/personal-portfolio.git
+cd personal-portfolio
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 2. Install dependencies
+npm install
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+### 3. Run the development server
+npm run dev
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Open in browser: http://localhost:3000
+
+
+---
+
+## 📦 Build for Production
+
+npm run build
+npm start
+
+
+---
+
+## 🌍 Deployment
+
+This project can be deployed easily on:
+- Vercel
+- Netlify
+- Render
+
+Recommended: **Vercel**
+
+---
+
+## 👤 Author
+
+**Abhishek Kumar**  
+Full Stack Software Engineer  
+MERN | Next.js | Backend APIs | AI Automation  
+
+📧 Email: abhishekmdp11@gmail.com  
+🔗 LinkedIn: https://www.linkedin.com/in/akr-abhishek-kr01  
+💻 GitHub: https://github.com/abhishek-kr01
+
+---
