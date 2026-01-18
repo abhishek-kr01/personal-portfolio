@@ -3,7 +3,7 @@
 A modern, responsive personal portfolio website built using **Next.js, React, and Tailwind CSS**.  
 This portfolio showcases my professional experience, projects, technical skills, and contact information.
 
-🔗 Live Demo: https://personal-portfolio-abhishek-kr01s-projects.vercel.app
+🔗 Live Demo: https://personal-portfolio-abhishek-kr01s-projects.vercel.app  
 📂 GitHub: https://github.com/abhishek-kr01/personal-portfolio.git
 
 ---
@@ -78,7 +78,7 @@ portfolio/
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
-git clone https://github.com/abhishek-kr01/personal-portfolio.git
+git clone https://github.com/abhishek-kr01/personal-portfolio.git  
 cd personal-portfolio
 
 
