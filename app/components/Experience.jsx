@@ -5,7 +5,7 @@ const experienceData = [
   {
     role: "Full Stack Software Engineering Intern",
     company: "Lawyered",
-    duration: "Oct 2025 – Present",
+    duration: "Jan 2026 – Present",
     location: "Gurugram, India (On-site)",
     points: [
       "Developing scalable web application features using React.js, Next.js, Node.js, and TypeScript in a production environment.",
