@@ -27,7 +27,7 @@ const Work = ({ isDarkMode }) => {
         transition={{ delay: 0.5, duration: 0.5 }}
         className="text-center text-5xl font-Ovo"
       >
-        Selected Projects
+        Featured Projects
       </motion.h2>
 
       <motion.p
@@ -36,12 +36,10 @@ const Work = ({ isDarkMode }) => {
         transition={{ delay: 0.7, duration: 0.5 }}
         className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo text-sm sm:text-base"
       >
-        A selection of real-world projects showcasing full-stack web
-        applications built with <strong>React</strong>,{" "}
-        <strong>Next.js</strong>, <strong>Node.js</strong>, and{" "}
-        <strong>MongoDB</strong>, along with <strong>AI-powered features</strong>{" "}
-        and secure backend APIs. Each project focuses on clean architecture,
-        scalability, and production-ready implementation.
+        A selection of <strong>real-world full-stack applications</strong> focused on{" "}
+        <strong>scalability, performance, and clean architecture</strong>.
+        These projects demonstrate my ability to design robust backend systems,
+        build responsive UIs, and integrate <strong>AI-powered features</strong>.
       </motion.p>
 
       <motion.div

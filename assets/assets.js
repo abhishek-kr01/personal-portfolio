@@ -532,40 +532,85 @@ export const assets = {
 
 /* ===================== PROJECTS ===================== */
 
+// export const workData = [
+//   {
+//     title: "Blogsy",
+//     description: "AI-powered MERN blog admin panel with content automation.",
+//     bgImage: "/work-7.png",
+//     link: "https://github.com/abhishek-kr01/Blogsy.git",
+//   },
+//   {
+//     title: "AuthGuard",
+//     description: "Secure authentication system with role-based access (Next.js + JWT).",
+//     bgImage: "/work-1.png",
+//     link: "https://github.com/abhishek-kr01/auth_nextjs",
+//   },
+//   {
+//     title: "FinFetch",
+//     description: "AI-enabled financial insights platform with real-time data.",
+//     bgImage: "/work-6.png",
+//     link: "https://github.com/abhishek-kr01/FinFetch.git",
+//   },
+//   {
+//     title: "Restaurant Management",
+//     description: "Backend APIs and admin workflows using Node.js and MongoDB.",
+//     bgImage: "/work-5.png",
+//     link: "https://github.com/abhishek-kr01/Hotel_management-using-NodeJS",
+//   },
+//   {
+//     title: "Face Attendance",
+//     description: "AI-based attendance system using face recognition workflows.",
+//     bgImage: "/work-4.png",
+//     link: "https://github.com/abhishek-kr01/Face_Recognition",
+//   },
+//   {
+//     title: "Utility Applications",
+//     description: "API-driven React applications (weather, currency, utilities).",
+//     bgImage: "/work-3.png",
+//     link: "https://github.com/abhishek-kr01",
+//   },
+// ];
+
 export const workData = [
   {
     title: "Blogsy",
-    description: "AI-powered MERN blog admin panel with content automation.",
+    description:
+      "AI-powered blog platform with role-based access, content automation, and optimized REST APIs improving performance and scalability.",
     bgImage: "/work-7.png",
     link: "https://github.com/abhishek-kr01/Blogsy.git",
   },
   {
     title: "AuthGuard",
-    description: "Secure authentication system with role-based access (Next.js + JWT).",
+    description:
+      "Secure authentication system with JWT, role-based authorization, and protected routes built using Next.js and Node.js.",
     bgImage: "/work-1.png",
     link: "https://github.com/abhishek-kr01/auth_nextjs",
   },
   {
     title: "FinFetch",
-    description: "AI-enabled financial insights platform with real-time data.",
+    description:
+      "AI-enabled financial insights platform integrating real-time data processing and intelligent analytics features.",
     bgImage: "/work-6.png",
     link: "https://github.com/abhishek-kr01/FinFetch.git",
   },
   {
     title: "Restaurant Management",
-    description: "Backend APIs and admin workflows using Node.js and MongoDB.",
+    description:
+      "Backend system with REST APIs, database design, and admin workflows for managing real-world business operations.",
     bgImage: "/work-5.png",
     link: "https://github.com/abhishek-kr01/Hotel_management-using-NodeJS",
   },
   {
     title: "Face Attendance",
-    description: "AI-based attendance system using face recognition workflows.",
+    description:
+      "AI-based attendance system using face recognition workflows for automated user identification.",
     bgImage: "/work-4.png",
     link: "https://github.com/abhishek-kr01/Face_Recognition",
   },
   {
-    title: "Utility Applications",
-    description: "API-driven React applications (weather, currency, utilities).",
+    title: "Utility Apps",
+    description:
+      "Collection of API-driven applications including weather and currency tools demonstrating frontend-backend integration.",
     bgImage: "/work-3.png",
     link: "https://github.com/abhishek-kr01",
   },
@@ -573,33 +618,64 @@ export const workData = [
 
 /* ===================== SERVICES ===================== */
 
+// export const serviceData = [
+//   {
+//     icon: assets.full_stack,
+//     title: "Full Stack Web Development",
+//     description:
+//       "End-to-end web applications using React, Next.js, Node.js, and MongoDB with scalable architecture.",
+//     link: "",
+//   },
+//   {
+//     icon: assets.front,
+//     title: "Frontend Development",
+//     description:
+//       "Modern, responsive, and accessible interfaces using React, Next.js, and Tailwind CSS.",
+//     link: "",
+//   },
+//   {
+//     icon: assets.backend,
+//     title: "Backend & API Development",
+//     description:
+//       "Secure and scalable REST APIs, authentication systems, and backend logic using Node.js and Express.",
+//     link: "",
+//   },
+//   {
+//     icon: assets.api,
+//     title: "AI & Automation Solutions",
+//     description:
+//       "AI-powered chatbots, content generation, and automation using Python, FastAPI, OpenAI, and Gemini APIs.",
+//     link: "",
+//   },
+// ];
+
 export const serviceData = [
   {
     icon: assets.full_stack,
-    title: "Full Stack Web Development",
+    title: "Full Stack Application Development",
     description:
-      "End-to-end web applications using React, Next.js, Node.js, and MongoDB with scalable architecture.",
+      "Building scalable, production-grade web applications using React, Next.js, Node.js, and modern architecture patterns.",
     link: "",
   },
   {
     icon: assets.front,
-    title: "Frontend Development",
+    title: "Frontend Engineering",
     description:
-      "Modern, responsive, and accessible interfaces using React, Next.js, and Tailwind CSS.",
+      "Designing high-performance, responsive, and user-centric interfaces using modern frontend technologies.",
     link: "",
   },
   {
     icon: assets.backend,
-    title: "Backend & API Development",
+    title: "Backend & API Engineering",
     description:
-      "Secure and scalable REST APIs, authentication systems, and backend logic using Node.js and Express.",
+      "Developing secure and scalable REST APIs, authentication systems, and efficient backend architectures.",
     link: "",
   },
   {
     icon: assets.api,
-    title: "AI & Automation Solutions",
+    title: "AI Integration & Automation",
     description:
-      "AI-powered chatbots, content generation, and automation using Python, FastAPI, OpenAI, and Gemini APIs.",
+      "Integrating AI-powered features using OpenAI APIs, Gemini API, and modern AI tools for automation and intelligent workflows.",
     link: "",
   },
 ];
@@ -607,12 +683,19 @@ export const serviceData = [
 /* ===================== ABOUT INFO ===================== */
 
 export const infoList = [
+  // {
+  //   icon: assets.code_icon,
+  //   iconDark: assets.code_icon_dark,
+  //   title: "Tech Stack",
+  //   description:
+  //     "JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, REST APIs, Python, FastAPI, MongoDB, MySQL, PostgreSQL, Git, GitHub, Docker, Vercel, Render",
+  // },
   {
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
     title: "Tech Stack",
     description:
-      "JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, REST APIs, Python, FastAPI, MongoDB, MySQL, PostgreSQL, Git, GitHub, Docker, Vercel, Render",
+      "JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, REST APIs, MongoDB, MySQL, PostgreSQL, Prisma, Git, GitHub, Docker, Vercel, Render, AI APIs (OpenAI, Gemini)",
   },
   {
     icon: assets.edu_icon,
