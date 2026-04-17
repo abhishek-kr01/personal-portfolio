@@ -123,5 +123,6 @@ MERN | Next.js | Backend APIs | AI Automation
 📧 Email: abhishekmdp11@gmail.com  
 🔗 LinkedIn: https://www.linkedin.com/in/akr-abhishek-kr01  
 💻 GitHub: https://github.com/abhishek-kr01
+Live Demo: https://personal-portfolio-abhishek-kr01s-projects.vercel.app
 
 ---
