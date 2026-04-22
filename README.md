@@ -117,8 +117,10 @@ Recommended: **Vercel**
 ## 👤 Author
 
 **Abhishek Kumar**  
-Full Stack Software Engineer  
-MERN | Next.js | Backend APIs | AI Automation  
+Full Stack Software Engineer
+
+I build scalable web applications and backend systems using MERN and Next.js, with a focus on clean architecture and performance.  
+Experienced in designing REST APIs, integrating AI features, and delivering real-world products that solve practical problems.
 
 📧 Email: abhishekmdp11@gmail.com  
 🔗 LinkedIn: https://www.linkedin.com/in/akr-abhishek-kr01  
