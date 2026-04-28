@@ -573,6 +573,20 @@ export const assets = {
 
 export const workData = [
   {
+    title: "ProjectMgmt",
+    description:
+      "Scalable project management backend with JWT authentication, RBAC (Admin/Project Admin/Member), task, subtask, and notes management with email workflows.",
+    bgImage: "/work-8.png",
+    link: "https://github.com/abhishek-kr01/projectmgmt-backend",
+  },
+  {
+    title: "FinFetch",
+    description:
+      "AI-enabled financial insights platform integrating real-time data processing and intelligent analytics features.",
+    bgImage: "/work-6.png",
+    link: "https://github.com/abhishek-kr01/FinFetch.git",
+  },
+  {
     title: "Blogsy",
     description:
       "AI-powered blog platform with role-based access, content automation, and optimized REST APIs improving performance and scalability.",
@@ -585,13 +599,6 @@ export const workData = [
       "Secure authentication system with JWT, role-based authorization, and protected routes built using Next.js and Node.js.",
     bgImage: "/work-1.png",
     link: "https://github.com/abhishek-kr01/auth_nextjs",
-  },
-  {
-    title: "FinFetch",
-    description:
-      "AI-enabled financial insights platform integrating real-time data processing and intelligent analytics features.",
-    bgImage: "/work-6.png",
-    link: "https://github.com/abhishek-kr01/FinFetch.git",
   },
   {
     title: "Restaurant Management",
@@ -608,11 +615,11 @@ export const workData = [
     link: "https://github.com/abhishek-kr01/Face_Recognition",
   },
   {
-    title: "Utility Apps",
+    title: "Whether Apps",
     description:
       "Collection of API-driven applications including weather and currency tools demonstrating frontend-backend integration.",
     bgImage: "/work-3.png",
-    link: "https://github.com/abhishek-kr01",
+    link: "https://github.com/abhishek-kr01/weather_widget.git",
   },
 ];
 

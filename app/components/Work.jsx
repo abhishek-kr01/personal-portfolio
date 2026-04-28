@@ -56,29 +56,32 @@ const Work = ({ isDarkMode }) => {
             className="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
             style={{ backgroundImage: `url(${project.bgImage})` }}
           >
-            <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
-              <div>
-                <h2 className="font-semibold">{project.title}</h2>
-                <p className="text-sm text-gray-700">
-                  {project.description}
-                </p>
-              </div>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href={project.link}
+              aria-label={`View ${project.title}`}
+              className="block"
+            >
+              <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
 
-              <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href={project.link}
-                  aria-label={`View ${project.title}`}
-                >
+                <div>
+                  <h2 className="font-semibold">{project.title}</h2>
+                  <p className="text-sm text-gray-700">
+                    {project.description}
+                  </p>
+                </div>
+
+                <div className="border rounded-full border-black w-20 sm:w-24 md:w-28 lg:w-32 aspect-square flex items-center justify-center shadow-[3px_3px_0_#000] group-hover:bg-lime-300 transition">
                   <Image
                     src={assets.send_icon}
                     alt="Project link"
                     className="w-5"
                   />
-                </a>
+                </div>
+
               </div>
-            </div>
+            </a>
           </motion.div>
         ))}
       </motion.div>
