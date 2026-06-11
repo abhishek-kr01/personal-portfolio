@@ -270,14 +270,6 @@ const Contact = () => {
           abhishekmdp11@gmail.com
         </a>{" "}
         ·{" "}
-        <a
-          href="/Abhishek.pdf"
-          className="underline font-medium"
-          aria-label="Download resume"
-          download
-        >
-          Download Resume
-        </a>
       </motion.p>
 
       <div className="flex flex-wrap justify-center gap-6 mb-10 text-sm">
