@@ -23,6 +23,7 @@ import prisma from "./prisma.svg"
 import ts from "./TypeScript.png"
 import aws from "./AWS.png"
 import express from "./express-js.svg"
+import next from "./next-js.svg"
 import postman from "./Postman.png"
 
 import right_arrow_white from "./right-arrow-white.png";
@@ -101,6 +102,7 @@ export const assets = {
   ts,
   postman,
   express,
+  next
   // aws,
 };
 
@@ -300,6 +302,7 @@ export const toolsData = [
   assets.express,
   assets.docker,
   assets.react,
+  assets.next,
   assets.mongodb,
   assets.artificial_intelligence,
   assets.git,
