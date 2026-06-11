@@ -22,7 +22,7 @@ import redis from "./Redis.png"
 import prisma from "./prisma.svg"
 import ts from "./TypeScript.png"
 import aws from "./AWS.png"
-import express from "./Express.png"
+import express from "./express-js.svg"
 import postman from "./Postman.png"
 
 import right_arrow_white from "./right-arrow-white.png";
