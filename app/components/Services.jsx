@@ -103,10 +103,10 @@ const Services = () => {
         className="text-center"
       >
         <h4 className="text-lg mb-2 font-Ovo text-gray-600 dark:text-gray-300">
-          What I Do
+          Expertise
         </h4>
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-Ovo">
-          What I Build
+          Core Specializations
         </h2>
       </motion.div>
 
@@ -116,14 +116,22 @@ const Services = () => {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ delay: 0.3 }}
-        className="text-center max-w-2xl mx-auto mt-5 mb-12 text-sm sm:text-base text-gray-700 dark:text-white/80"
+        className="text-center max-w-3xl mx-auto mt-5 mb-12 text-sm sm:text-base text-gray-700 dark:text-white/80"
+
       >
-        I build <strong>scalable, production-grade web applications</strong> using{" "}
-        <strong>React, Next.js, Node.js, and TypeScript</strong>.
-        I also develop <strong>AI-powered features</strong> using{" "}
-        <strong>OpenAI APIs, Gemini API, and modern AI tools</strong> to enable
-        automation, improve user experience, and solve real-world problems.
+
+        I design and build <strong>scalable backend systems, AI-powered applications,
+          and production-ready web platforms</strong> using <strong> NestJS, Node.js, TypeScript, PostgreSQL, Redis, BullMQ, React, and Next.js</strong>.
+
+        <br />
+        <br />
+
+        My focus is on <strong>system architecture, API engineering,
+          distributed job processing, authentication systems, AI integrations,
+          and high-performance applications</strong> that scale reliably in
+        real-world environments.
       </motion.p>
+
 
       {/* Services Grid */}
       <motion.div
@@ -131,7 +139,7 @@ const Services = () => {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ delay: 0.4 }}
-        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"
+        className="grid grid-cols-1 md:grid-cols-2 gap-6"
       >
         {serviceData.map(({ icon, title, description, link }) => (
           <motion.div

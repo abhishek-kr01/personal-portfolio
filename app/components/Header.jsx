@@ -111,11 +111,12 @@ function Header() {
         whileInView={{ scale: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.7, type: "spring", stiffness: 100 }}
+        className="relative"
       >
         <Image
           src={assets.profile_img}
           alt="Portrait of Abhishek Kumar"
-          className="rounded-full w-32 sm:w-44 shadow-lg"
+          className="rounded-full w-32 sm:w-44 shadow-2xl border-2 border-white/10"
           priority
         />
       </motion.div>
@@ -138,12 +139,12 @@ function Header() {
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.7, delay: 0.4 }}
-        className="text-3xl sm:text-5xl lg:text-[48px] font-Ovo leading-tight"
+        className="text-3xl sm:text-4xl lg:text-[42px] font-Ovo leading-tight"
       >
-        Building Scalable Full Stack Applications
+        Founding Engineer & Full Stack Developer
         <br />
-        <span className="text-gray-600 dark:text-white/70 text-2xl sm:text-3xl lg:text-[36px]">
-          with Modern Web & AI Technologies
+        <span className="text-gray-600 dark:text-white/70 text-base sm:text-xl lg:text-2xl">
+          NestJS • Node.js • TypeScript • AI Systems
         </span>
       </motion.h1>
 
@@ -153,13 +154,22 @@ function Header() {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6, delay: 0.6 }}
-        className="max-w-2xl mx-auto text-sm sm:text-base text-gray-700 dark:text-white/80"
+        className="max-w-3xl mx-auto text-sm sm:text-base text-gray-700 dark:text-white/80"
       >
-        I build <strong>modern, scalable, and production-ready applications </strong>
-        using <strong> React, Next.js, Node.js, and TypeScript</strong>.
-        I also develop <strong>AI-powered features</strong> using{" "} 
-        <strong>OpenAI APIs, Gemini API, and modern AI tools</strong> to enable
-        automation, intelligent workflows, and real-world solutions.
+        I build scalable backend systems, AI-powered applications, and
+        production-ready web platforms using <strong>NestJS</strong>,
+        <strong> Node.js</strong>, <strong>TypeScript</strong>,
+        <strong> PostgreSQL</strong>, <strong>Redis</strong>,
+        <strong> BullMQ</strong>, <strong>React</strong>, and
+        <strong> Next.js</strong>.
+
+        <br />
+        <br />
+
+        Currently working as a <strong>Founding Engineer</strong>, focusing on
+        distributed systems, event-driven architectures, background job
+        processing, AI integrations, and high-performance application
+        development.
       </motion.p>
 
       {/* CTA Buttons */}

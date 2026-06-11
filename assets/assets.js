@@ -189,31 +189,31 @@ export const workData = [
 
 export const serviceData = [
   {
-    icon: assets.full_stack,
-    title: "Full Stack Application Development",
-    description:
-      "Building scalable, production-grade web applications using React, Next.js, Node.js, and modern architecture patterns.",
-    link: "",
-  },
-  {
-    icon: assets.front,
-    title: "Frontend Engineering",
-    description:
-      "Designing high-performance, responsive, and user-centric interfaces using modern frontend technologies.",
-    link: "",
-  },
-  {
     icon: assets.backend,
-    title: "Backend & API Engineering",
+    title: "Backend Systems Engineering",
     description:
-      "Developing secure and scalable REST APIs, authentication systems, and efficient backend architectures.",
+      "Designing scalable backend architectures using NestJS, Node.js, Express.js, TypeScript, PostgreSQL, Redis, and BullMQ for high-performance applications.",
     link: "",
   },
   {
     icon: assets.api,
-    title: "AI Integration & Automation",
+    title: "AI Systems & Automation",
     description:
-      "Integrating AI-powered features using OpenAI APIs, Gemini API, and modern AI tools for automation and intelligent workflows.",
+      "Building AI-powered products, intelligent workflows, agents, and automation systems using OpenAI, Gemini, and modern LLM technologies.",
+    link: "",
+  },
+  {
+    icon: assets.full_stack,
+    title: "Full Stack Product Development",
+    description:
+      "Developing production-ready SaaS platforms and web applications using React, Next.js, NestJS, Express.js and modern cloud-native practices.",
+    link: "",
+  },
+  {
+    icon: assets.front,
+    title: "System Design & Architecture",
+    description:
+      "Designing scalable APIs, distributed systems, background job processing, caching strategies, and maintainable software architectures.",
     link: "",
   },
 ];
@@ -233,7 +233,7 @@ export const infoList = [
     iconDark: assets.code_icon_dark,
     title: "Tech Stack",
     description:
-      "JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, REST APIs, MongoDB, MySQL, PostgreSQL, Prisma, Git, GitHub, Docker, Vercel, Render, AI APIs (OpenAI, Gemini)",
+      "NestJS, Node.js, Express.js, TypeScript, PostgreSQL, Redis, BullMQ, React.js, Next.js, MongoDB, Prisma, Docker, Git, GitHub, OpenAI, Gemini, REST APIs",
   },
   {
     icon: assets.edu_icon,
@@ -255,10 +255,16 @@ export const infoList = [
     title: "Projects",
     description: (
       <>
-        <strong>Blogsy:</strong> AI-powered MERN blog platform <br /><br />
-        <strong>AuthGuard:</strong> Secure role-based authentication system <br /><br />
-        <strong>FinFetch:</strong> AI-enabled financial dashboard <br /><br />
-        <strong>More:</strong> More projects on GitHub...
+        <strong>FinFetch:</strong> AI-powered financial analysis platform with real-time stock tracking and chatbot
+        <br /><br />
+
+        <strong>ProjectMgmt:</strong> Production-ready project management backend with RBAC and JWT authentication
+        <br /><br />
+
+        <strong>Blogsy:</strong> AI-powered blog management platform with content generation and publishing workflows
+        <br /><br />
+
+        <strong>More:</strong> Full-stack, backend, and AI projects available on GitHub...
       </>
     ),
   },

@@ -3,17 +3,30 @@ import { motion } from "framer-motion";
 
 const experienceData = [
   {
+    role: "Founding Engineer",
+    company: "Qohere Private Limited",
+    duration: "Jun 2026 – Present",
+    location: "Bengaluru, India (On-site)",
+    points: [
+      "Leading development of scalable backend systems using NestJS, TypeScript, PostgreSQL, Redis, and BullMQ.",
+      "Designing event-driven architectures, background job processing pipelines, and production-grade APIs.",
+      "Building AI-powered automation workflows integrating LLMs, content generation systems, and intelligent agents.",
+      "Collaborating directly with founders to define product architecture, technical roadmap, and engineering decisions.",
+      "Improving system performance, reliability, and scalability through caching, queue-based processing, and optimized database design."
+    ]
+  },
+  {
     role: "Full Stack Software Engineering Intern",
     company: "Lawyered",
-    duration: "Jan 2026 – Present",
+    duration: "Jan 2026 – Apr 2026",
     location: "Gurugram, India (On-site)",
     points: [
-      "Developing scalable web application features using React.js, Next.js, Node.js, and TypeScript in a production environment.",
-      "Building and integrating RESTful APIs to support frontend and backend communication.",
-      "Implementing secure authentication and role-based access workflows.",
-      "Developing admin dashboard features to improve internal operations and data management.",
-      "Collaborating with engineering teams to deliver performance-focused and maintainable solutions."
-    ],
+      "Developed production-ready features using React.js, Next.js, Node.js, and TypeScript.",
+      "Built and integrated REST APIs supporting high-traffic legal-tech workflows.",
+      "Implemented authentication, authorization, and role-based access control mechanisms.",
+      "Contributed to internal admin dashboards improving operational efficiency and data visibility.",
+      "Collaborated within an Agile engineering team while following code review and deployment workflows."
+    ]
   },
   {
     role: "Junior Software Engineer Intern",
@@ -37,28 +50,6 @@ const experienceData = [
       "Designed and implemented RESTful APIs for event and volunteer management workflows.",
       "Handled database operations, API testing, and debugging using Postman.",
       "Strengthened backend fundamentals including API design, data modeling, and team collaboration."
-    ],
-  },
-  {
-    role: "Full Stack Web Development Intern",
-    company: "Main Flow Services and Technologies Pvt. Ltd.",
-    duration: "Nov 2024 – Jan 2025",
-    location: "Remote",
-    points: [
-      "Built full-stack web applications using React.js, Node.js, Express.js, and MongoDB.",
-      "Developed responsive UI components and integrated backend APIs.",
-      "Worked in Agile-style collaboration using Git and GitHub for version control."
-    ],
-  },
-  {
-    role: "Web Development Intern",
-    company: "OctaNet Services Pvt. Ltd.",
-    duration: "Oct 2024 – Nov 2024",
-    location: "Remote",
-    points: [
-      "Built responsive web pages using HTML, CSS, and JavaScript.",
-      "Improved frontend development fundamentals and practical workflow understanding.",
-      "Collaborated remotely while following structured development practices."
     ],
   },
 ];

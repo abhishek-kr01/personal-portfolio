@@ -177,7 +177,7 @@ const About = ({ isDarkMode }) => {
       </motion.div>
 
       {/* Content */}
-      <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20 mt-16">
+      <div className="flex flex-col lg:grid lg:grid-cols-[320px_1fr] gap-16 mt-16 items-start">
 
         {/* Image */}
         <motion.div
@@ -185,12 +185,12 @@ const About = ({ isDarkMode }) => {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="w-64 sm:w-80 lg:w-96"
+          className="w-64 sm:w-72 lg:w-80 self-start"
         >
           <Image
             src={assets.user_image}
             alt="Portrait of Abhishek Kumar"
-            className="w-full rounded-3xl shadow-lg"
+            className="w-full rounded-3xl shadow-2xl border border-white/10"
             priority={false}
           />
         </motion.div>
@@ -204,28 +204,26 @@ const About = ({ isDarkMode }) => {
           className="flex-1 text-gray-700 dark:text-white/80"
         >
           <p>
-            I’m a <strong>Full Stack Software Engineer</strong> with hands-on
-            experience building <strong>scalable, production-ready web applications</strong>.
-            Currently working in a real-world production environment, I focus on
-            writing clean, maintainable code and designing efficient system architecture.
+            I'm a <strong>Software Engineer focused on building scalable backend systems,
+              AI-powered applications, and modern web platforms.</strong>
           </p>
 
           <p className="mt-4">
-            My core stack includes <strong>React, Next.js, Node.js, and TypeScript</strong>,
-            where I build high-performance frontends and robust backend systems
-            with secure and optimized <strong>REST APIs</strong>.
+            Currently working as a <strong>Founding Engineer</strong>, I design and develop
+            production-grade systems using <strong>NestJS, Node.js, TypeScript,
+              PostgreSQL, Redis, BullMQ, React, and Next.js</strong>.
           </p>
 
           <p className="mt-4">
-            I also build <strong>AI-powered features</strong> using{" "}
-            <strong>OpenAI APIs, Gemini API, and modern AI tools</strong>, enabling
-            automation, intelligent workflows, and scalable real-world solutions.
+            My experience spans backend architecture, distributed job processing,
+            API development, database design, and AI integrations using modern LLM
+            technologies.
           </p>
 
           <p className="mt-4">
-            I actively focus on <strong>performance optimization, security, and scalability</strong>,
-            and follow industry best practices including Git workflows, modular architecture,
-            and cloud-ready deployments.{" "}
+            I enjoy solving complex engineering problems, optimizing performance,
+            and building products that can scale from early-stage startups to
+            enterprise-grade applications.{" "}
             <br />
             <a
               href="https://github.com/abhishek-kr01"
