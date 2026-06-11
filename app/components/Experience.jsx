@@ -8,12 +8,12 @@ const experienceData = [
     duration: "Jun 2026 – Present",
     location: "Bengaluru, India (On-site)",
     points: [
-      "Leading development of scalable backend systems using NestJS, TypeScript, PostgreSQL, Redis, and BullMQ.",
-      "Designing event-driven architectures, background job processing pipelines, and production-grade APIs.",
-      "Building AI-powered automation workflows integrating LLMs, content generation systems, and intelligent agents.",
-      "Collaborating directly with founders to define product architecture, technical roadmap, and engineering decisions.",
-      "Improving system performance, reliability, and scalability through caching, queue-based processing, and optimized database design."
-    ]
+      "Working as an early engineering team member to build and scale core product capabilities from the ground up.",
+      "Developing backend systems, APIs, and integrations using NestJS, TypeScript, PostgreSQL, Redis, and modern web technologies.",
+      "Building automation workflows and AI-powered features to improve operational efficiency and user experience.",
+      "Collaborating directly with the founder on product architecture, technical planning, and feature development.",
+      "Contributing to scalable, reliable, and maintainable software solutions with a focus on performance and long-term growth."
+    ],
   },
   {
     role: "Full Stack Software Engineering Intern",
