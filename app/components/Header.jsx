@@ -158,7 +158,7 @@ function Header() {
       >
         I build scalable backend systems, AI-powered applications, and
         production-ready web platforms using <strong>NestJS</strong>,
-        <strong> Node.js</strong>, <strong>TypeScript</strong>,
+        <strong> Node.js</strong>, <strong> Express.js</strong>, <strong>TypeScript</strong>,
         <strong> PostgreSQL</strong>, <strong>Redis</strong>,
         <strong> BullMQ</strong>, <strong>React</strong>, and
         <strong> Next.js</strong>.

@@ -233,7 +233,7 @@ export const infoList = [
     iconDark: assets.code_icon_dark,
     title: "Tech Stack",
     description:
-      "NestJS, Node.js, Express.js, TypeScript, PostgreSQL, Redis, BullMQ, React.js, Next.js, MongoDB, Prisma, Docker, Git, GitHub, OpenAI, Gemini, REST APIs",
+      "NestJS, Node.js, Express.js, TypeScript, PostgreSQL, Redis, BullMQ, React.js, Next.js, MongoDB, Mongoose,  Prisma, Docker, Git, GitHub, OpenAI, Gemini, REST APIs",
   },
   {
     icon: assets.edu_icon,

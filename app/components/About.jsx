@@ -210,7 +210,7 @@ const About = ({ isDarkMode }) => {
 
           <p className="mt-4">
             Currently working as a <strong>Founding Engineer</strong>, I design and develop
-            production-grade systems using <strong>NestJS, Node.js, TypeScript,
+            production-grade systems using <strong>NestJS, Node.js, Express.js, TypeScript,
               PostgreSQL, Redis, BullMQ, React, and Next.js</strong>.
           </p>
 

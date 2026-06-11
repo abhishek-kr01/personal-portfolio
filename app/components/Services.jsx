@@ -121,7 +121,7 @@ const Services = () => {
       >
 
         I design and build <strong>scalable backend systems, AI-powered applications,
-          and production-ready web platforms</strong> using <strong> NestJS, Node.js, TypeScript, PostgreSQL, Redis, BullMQ, React, and Next.js</strong>.
+          and production-ready web platforms</strong> using <strong> NestJS, Node.js, Express.js, TypeScript, PostgreSQL, Redis, BullMQ, React, and Next.js</strong>.
 
         <br />
         <br />
