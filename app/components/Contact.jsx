@@ -250,14 +250,14 @@ const Contact = () => {
         className="text-center max-w-2xl mx-auto mt-5 mb-8 text-sm sm:text-base text-gray-700 dark:text-white/80"
       >
         I’m currently open to <strong>Software Engineer, Backend Engineer,
-        and Founding Engineer opportunities</strong>.
+        and Full Stack Engineer opportunities</strong>.
         
-        <br /><br />
+        <br />
         
         I specialize in building <strong>scalable backend systems,
         AI-powered applications, and production-ready web platforms</strong>.
         
-        <br /><br />
+        <br />
         
         Feel free to reach out for opportunities, collaborations, or technical discussions.
         <br /><br />
