@@ -15,6 +15,15 @@ import nodejs from "./nodejs.png";
 import react from "./react.png";
 import mongodb from "./mongodb.png";
 import firebase from "./firebase.png";
+import docker from "./Docker.png"
+import nest from "./Nest.js.png"
+import postgressql from "./PostgresSQL.png"
+import redis from "./Redis.png"
+import prisma from "./prisma.svg"
+import ts from "./TypeScript.png"
+import aws from "./AWS.png"
+import express from "./Express.png"
+import postman from "./Postman.png"
 
 import right_arrow_white from "./right-arrow-white.png";
 import logo from "./logo.png";
@@ -55,13 +64,13 @@ export const assets = {
   project_icon,
   project_icon_dark,
   vscode,
-  figma,
+  // figma,
   git,
   github,
   react,
   nodejs,
   mongodb,
-  firebase,
+  // firebase,
   right_arrow_white,
   logo,
   logo_dark,
@@ -84,6 +93,15 @@ export const assets = {
   right_arrow_bold,
   right_arrow_bold_dark,
   artificial_intelligence,
+  docker,
+  prisma,
+  postgressql,
+  nest,
+  redis,
+  ts,
+  postman,
+  express,
+  // aws,
 };
 
 /* ===================== PROJECTS ===================== */
@@ -273,13 +291,19 @@ export const infoList = [
 /* ===================== TOOLS ===================== */
 
 export const toolsData = [
-  assets.vscode,
-  assets.git,
-  assets.github,
-  assets.figma,
+  assets.nest,
   assets.nodejs,
+  assets.ts,
+  assets.redis,
+  assets.postgressql,
+  assets.prisma,
+  assets.express,
+  assets.docker,
   assets.react,
   assets.mongodb,
-  assets.firebase,
   assets.artificial_intelligence,
+  assets.git,
+  assets.github,
+  assets.postman,
+  assets.vscode,
 ];
