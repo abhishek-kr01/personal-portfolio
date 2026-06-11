@@ -249,9 +249,17 @@ const Contact = () => {
         transition={{ delay: 0.3 }}
         className="text-center max-w-2xl mx-auto mt-5 mb-8 text-sm sm:text-base text-gray-700 dark:text-white/80"
       >
-        I’m currently open to <strong>Full Stack / Software Engineer roles</strong>.
-        If you’re looking for someone who can build <strong>scalable web applications</strong>
-        and integrate <strong>AI-powered features</strong>, feel free to reach out.
+        I’m currently open to <strong>Software Engineer, Backend Engineer,
+        and Full Stack Engineer opportunities</strong>.
+        
+        <br />
+        
+        I specialize in building <strong>scalable backend systems,
+        AI-powered applications, and production-ready web platforms</strong>.
+        
+        <br />
+        
+        Feel free to reach out for opportunities, collaborations, or technical discussions.
         <br /><br />
         Email:{" "}
         <a
@@ -260,17 +268,36 @@ const Contact = () => {
           aria-label="Email Abhishek"
         >
           abhishekmdp11@gmail.com
-        </a>{" "}
-        ·{" "}
-        <a
-          href="/Abhishek.pdf"
-          className="underline font-medium"
-          aria-label="Download resume"
-          download
-        >
-          Download Resume
         </a>
       </motion.p>
+
+      <div className="flex flex-wrap justify-center gap-6 mb-10 text-sm">
+        <a
+          href="https://github.com/abhishek-kr01"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline font-medium"
+        >
+          GitHub
+        </a>
+      
+        <a
+          href="https://linkedin.com/in/akr-abhishek-kr01"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline font-medium"
+        >
+          LinkedIn
+        </a>
+      
+        <a
+          href="/Abhishek.pdf"
+          download
+          className="underline font-medium"
+        >
+          Resume
+        </a>
+      </div>
 
       {/* Form */}
       <motion.form
