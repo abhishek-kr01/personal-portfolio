@@ -268,8 +268,7 @@ const Contact = () => {
           aria-label="Email Abhishek"
         >
           abhishekmdp11@gmail.com
-        </a>{" "}
-        ·{" "}
+        </a>
       </motion.p>
 
       <div className="flex flex-wrap justify-center gap-6 mb-10 text-sm">
