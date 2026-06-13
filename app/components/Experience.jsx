@@ -12,7 +12,7 @@ const experienceData = [
       "Developing backend systems, APIs, and integrations using NestJS, TypeScript, PostgreSQL, Redis, and modern web technologies.",
       "Building automation workflows and AI-powered features to improve operational efficiency and user experience.",
       "Collaborating directly with the founder on product architecture, technical planning, and feature development.",
-      "Contributing to scalable, reliable, and maintainable software solutions with a focus on performance and long-term growth."
+      "Contributing to scalable, reliable, and maintainable software solutions with a focus on performance, quality, and long-term growth."
     ],
   },
   {

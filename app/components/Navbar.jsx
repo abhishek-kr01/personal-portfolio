@@ -52,7 +52,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           <Image
             src={isDarkMode ? assets.logo_dark : assets.logo}
             alt="Abhishek Kumar Logo"
-            className="w-28 cursor-pointer mr-14"
+            className="w-32 cursor-pointer mr-14"
           />
         </a>
 
@@ -64,12 +64,12 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
               : "bg-white shadow-sm bg-opacity-50 dark:border dark:border-white/50 dark:bg-transparent"
           }`}
         >
-          <li><a className="font-Ovo" href="#top">Home</a></li>
-          <li><a className="font-Ovo" href="#about">About</a></li>
-          <li><a className="font-Ovo" href="#services">What I Do</a></li>
-          <li><a className="font-Ovo" href="#experience">Experience</a></li>
-          <li><a className="font-Ovo" href="#work">Projects</a></li>
-          <li><a className="font-Ovo" href="#contact">Contact</a></li>
+          <li><a className="font-Ovo hover:opacity-70 transition" href="#top">Home</a></li>
+          <li><a className="font-Ovo hover:opacity-70 transition" href="#about">About</a></li>
+          <li><a className="font-Ovo hover:opacity-70 transition" href="#services">Expertise</a></li>
+          <li><a className="font-Ovo hover:opacity-70 transition" href="#experience">Experience</a></li>
+          <li><a className="font-Ovo hover:opacity-70 transition" href="#work">Projects</a></li>
+          <li><a className="font-Ovo hover:opacity-70 transition" href="#contact">Connect</a></li>
         </ul>
 
         <div className="flex items-center gap-4">
@@ -77,7 +77,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           <button
             onClick={() => setIsDarkMode((prev) => !prev)}
             aria-label="Toggle dark mode"
-            className="p-1"
+            className="p-1 font-Ovo hover:opacity-70 transition"
           >
             <Image
               src={isDarkMode ? assets.sun_icon : assets.moon_icon}
@@ -89,9 +89,9 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           {/* Contact Button */}
           <a
             href="#contact"
-            className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-Ovo dark:border-white/50"
+            className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-Ovo dark:border-white/50 hover:opacity-70 transition"
           >
-            Contact
+            Let's Connect
             <Image
               src={isDarkMode ? assets.arrow_icon_dark : assets.arrow_icon}
               alt=""
@@ -117,7 +117,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
       {/* Mobile Menu */}
       <div
         ref={sideMenuRef}
-        className="fixed top-0 right-0 w-64 h-full bg-rose-50 dark:bg-darkHover dark:text-white transition-transform duration-500 transform translate-x-full z-50"
+        className="fixed top-0 right-0 w-72 h-full bg-rose-50 dark:bg-darkHover dark:text-white transition-transform duration-500 transform translate-x-full z-50"
       >
         <div className="flex justify-end p-4">
           <button onClick={closeMenu} aria-label="Close menu">
@@ -132,10 +132,10 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
         <ul className="flex flex-col items-center gap-6 py-20">
           <li><a onClick={closeMenu} href="#top">Home</a></li>
           <li><a onClick={closeMenu} href="#about">About</a></li>
-          <li><a onClick={closeMenu} href="#services">What I Do</a></li>
+          <li><a onClick={closeMenu} href="#services">Expertise</a></li>
           <li><a onClick={closeMenu} href="#experience">Experience</a></li>
           <li><a onClick={closeMenu} href="#work">Projects</a></li>
-          <li><a onClick={closeMenu} href="#contact">Contact</a></li>
+          <li><a onClick={closeMenu} href="#contact">Connect</a></li>
         </ul>
       </div>
     </>

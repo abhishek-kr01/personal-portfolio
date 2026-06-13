@@ -144,7 +144,7 @@ function Header() {
         Founding Engineer & Full Stack Developer
         <br />
         <span className="text-gray-600 dark:text-white/70 text-base sm:text-xl lg:text-2xl">
-          NestJS • Node.js • TypeScript • AI Systems
+          Backend Systems • Modern Web Applications • AI
         </span>
       </motion.h1>
 
@@ -166,10 +166,7 @@ function Header() {
         <br />
         <br />
 
-        Currently working as a <strong>Founding Engineer</strong>, focusing on
-        distributed systems, event-driven architectures, background job
-        processing, AI integrations, and high-performance application
-        development.
+        Currently working as a <strong>Founding Engineer</strong>, contributing to product development, backend architecture, AI-powered workflows, and engineering initiatives at an early-stage startup.
       </motion.p>
 
       {/* CTA Buttons */}

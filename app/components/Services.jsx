@@ -117,21 +117,17 @@ const Services = () => {
         viewport={{ once: true }}
         transition={{ delay: 0.3 }}
         className="text-center max-w-3xl mx-auto mt-5 mb-12 text-sm sm:text-base text-gray-700 dark:text-white/80"
-
       >
-
         I design and build <strong>scalable backend systems, AI-powered applications,
-          and production-ready web platforms</strong> using <strong> NestJS, Node.js, Express.js, TypeScript, PostgreSQL, Redis, BullMQ, React, and Next.js</strong>.
+          and production-ready web platforms</strong> using <strong>NestJS, Node.js,
+            Express.js, TypeScript, PostgreSQL, Redis, BullMQ, React, and Next.js</strong>.
 
         <br />
         <br />
 
-        My focus is on <strong>system architecture, API engineering,
-          distributed job processing, authentication systems, AI integrations,
-          and high-performance applications</strong> that scale reliably in
-        real-world environments.
+          My focus is on <strong>backend architecture, API development,
+          authentication systems, AI integrations, and scalable applications</strong> built for reliability, performance, and real-world use cases.
       </motion.p>
-
 
       {/* Services Grid */}
       <motion.div

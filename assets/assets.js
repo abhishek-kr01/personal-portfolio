@@ -25,6 +25,7 @@ import aws from "./AWS.png"
 import express from "./express-js.svg"
 import next from "./next-js.svg"
 import postman from "./Postman.png"
+import vercel from "./vercel.svg"
 
 import right_arrow_white from "./right-arrow-white.png";
 import logo from "./logo.png";
@@ -102,77 +103,147 @@ export const assets = {
   ts,
   postman,
   express,
-  next
+  next,
+  vercel
   // aws,
 };
 
 /* ===================== PROJECTS ===================== */
 
+// export const workData = [
+//   {
+//     title: "Supportly",
+//     description:
+//       "AI-powered customer support SaaS with embeddable chatbot integration, Gemini AI responses, secure authentication, business knowledge training, and modern dashboard management.",
+//     bgImage: "/work-9.png",
+//     link: "https://github.com/abhishek-kr01/supportly",
+//   },
+
+//   {
+//     title: "ProjectMgmt",
+//     description:
+//       "Scalable project management backend with JWT authentication, RBAC, task management, subtasks, notes, and email workflow automation.",
+//     bgImage: "/work-8.png",
+//     link: "https://github.com/abhishek-kr01/projectmgmt-backend",
+//   },
+
+//   {
+//     title: "Blogsy",
+//     description:
+//       "AI-powered blogging platform with role-based access, content automation, optimized REST APIs, and scalable backend architecture.",
+//     bgImage: "/work-7.png",
+//     link: "https://github.com/abhishek-kr01/Blogsy.git",
+//   },
+
+//   {
+//     title: "FinFetch",
+//     description:
+//       "AI-enabled financial insights platform integrating real-time data processing and intelligent analytics features.",
+//     bgImage: "/work-6.png",
+//     link: "https://github.com/abhishek-kr01/FinFetch.git",
+//   },
+
+//   {
+//     title: "AuthGuard",
+//     description:
+//       "Secure authentication system with JWT, protected routes, and role-based authorization built using Next.js and Node.js.",
+//     bgImage: "/work-1.png",
+//     link: "https://github.com/abhishek-kr01/auth_nextjs",
+//   },
+
+//   {
+//     title: "AI Face Attendance System",
+//     description:
+//       "AI-based attendance management system using face recognition workflows for automated user identification and tracking.",
+//     bgImage: "/work-4.png",
+//     link: "https://github.com/abhishek-kr01/Face_Recognition",
+//   },
+
+//   {
+//     title: "Restaurant Management System",
+//     description:
+//       "Backend-driven restaurant management platform with REST APIs, database workflows, and admin operation management.",
+//     bgImage: "/work-5.png",
+//     link: "https://github.com/abhishek-kr01/Hotel_management-using-NodeJS",
+//   },
+
+//   {
+//     title: "Weather Apps",
+//     description:
+//       "Collection of API-driven applications including weather and currency tools demonstrating frontend-backend integration.",
+//     bgImage: "/work-3.png",
+//     link: "https://github.com/abhishek-kr01/weather_widget.git",
+//   },
+// ];
+
 export const workData = [
   {
     title: "Supportly",
     description:
-      "AI-powered customer support SaaS with embeddable chatbot integration, Gemini AI responses, secure authentication, business knowledge training, and modern dashboard management.",
+      "AI-powered customer support SaaS featuring embeddable chatbots, business knowledge training, secure authentication, and intelligent customer interactions powered by Gemini AI.",
     bgImage: "/work-9.png",
-    link: "https://github.com/abhishek-kr01/supportly",
+    liveLink: "https://supportly-chi.vercel.app/",
+    githubLink: "https://github.com/abhishek-kr01/supportly",
   },
 
   {
     title: "ProjectMgmt",
     description:
-      "Scalable project management backend with JWT authentication, RBAC, task management, subtasks, notes, and email workflow automation.",
+      "Backend-focused project management platform featuring JWT authentication, RBAC, task workflows, subtasks, notes, and automated email notifications.",
     bgImage: "/work-8.png",
-    link: "https://github.com/abhishek-kr01/projectmgmt-backend",
+    githubLink: "https://github.com/abhishek-kr01/projectmgmt-backend",
   },
 
   {
     title: "Blogsy",
     description:
-      "AI-powered blogging platform with role-based access, content automation, optimized REST APIs, and scalable backend architecture.",
+      "AI-powered blogging platform with role-based access control, content automation, optimized REST APIs, and scalable backend architecture.",
     bgImage: "/work-7.png",
-    link: "https://github.com/abhishek-kr01/Blogsy.git",
+    liveLink: "https://blogsy-beta.vercel.app/",
+    githubLink: "https://github.com/abhishek-kr01/Blogsy",
   },
 
   {
     title: "FinFetch",
     description:
-      "AI-enabled financial insights platform integrating real-time data processing and intelligent analytics features.",
+      "Financial analytics platform providing AI-powered insights, real-time data processing, and interactive dashboards for smarter decision-making.",
     bgImage: "/work-6.png",
-    link: "https://github.com/abhishek-kr01/FinFetch.git",
+    githubLink: "https://github.com/abhishek-kr01/FinFetch",
   },
 
   {
     title: "AuthGuard",
     description:
-      "Secure authentication system with JWT, protected routes, and role-based authorization built using Next.js and Node.js.",
+      "Secure authentication system implementing JWT-based authentication, protected routes, and role-based authorization using Next.js and Node.js.",
     bgImage: "/work-1.png",
-    link: "https://github.com/abhishek-kr01/auth_nextjs",
+    githubLink: "https://github.com/abhishek-kr01/auth_nextjs",
   },
 
   {
     title: "AI Face Attendance System",
     description:
-      "AI-based attendance management system using face recognition workflows for automated user identification and tracking.",
+      "AI-powered attendance management system utilizing face recognition workflows for automated user identification and attendance tracking.",
     bgImage: "/work-4.png",
-    link: "https://github.com/abhishek-kr01/Face_Recognition",
+    githubLink: "https://github.com/abhishek-kr01/Face_Recognition",
   },
 
   {
     title: "Restaurant Management System",
     description:
-      "Backend-driven restaurant management platform with REST APIs, database workflows, and admin operation management.",
+      "Backend-driven restaurant management platform with REST APIs, database workflows, authentication, and administrative operation management.",
     bgImage: "/work-5.png",
-    link: "https://github.com/abhishek-kr01/Hotel_management-using-NodeJS",
+    githubLink: "https://github.com/abhishek-kr01/Hotel_management-using-NodeJS",
   },
 
   {
     title: "Weather Apps",
     description:
-      "Collection of API-driven applications including weather and currency tools demonstrating frontend-backend integration.",
+      "Collection of API-driven applications including weather and currency tools demonstrating API integration and frontend-backend communication.",
     bgImage: "/work-3.png",
-    link: "https://github.com/abhishek-kr01/weather_widget.git",
+    githubLink: "https://github.com/abhishek-kr01/weather_widget",
   },
 ];
+
 
 /* ===================== SERVICES ===================== */
 
@@ -216,7 +287,7 @@ export const serviceData = [
     link: "",
   },
   {
-    icon: assets.api,
+    icon: assets.artificial_intelligence,
     title: "AI Systems & Automation",
     description:
       "Building AI-powered products, intelligent workflows, agents, and automation systems using OpenAI, Gemini, and modern LLM technologies.",
@@ -226,14 +297,14 @@ export const serviceData = [
     icon: assets.full_stack,
     title: "Full Stack Product Development",
     description:
-      "Developing production-ready SaaS platforms and web applications using React, Next.js, NestJS, Express.js and modern cloud-native practices.",
+      "Developing production-ready SaaS platforms and web applications using React, Next.js, NestJS, Express.js and modern development practices.",
     link: "",
   },
   {
-    icon: assets.front,
-    title: "System Design & Architecture",
+    icon: assets.api,
+    title: "API & System Architecture",
     description:
-      "Designing scalable APIs, distributed systems, background job processing, caching strategies, and maintainable software architectures.",
+      "Building scalable APIs, authentication systems, background job processing workflows, caching strategies, and maintainable application architectures.",
     link: "",
   },
 ];
@@ -253,7 +324,7 @@ export const infoList = [
     iconDark: assets.code_icon_dark,
     title: "Tech Stack",
     description:
-      "NestJS, Node.js, Express.js, TypeScript, PostgreSQL, Redis, BullMQ, React.js, Next.js, MongoDB, Mongoose,  Prisma, Docker, Git, GitHub, OpenAI, Gemini, REST APIs",
+      "NestJS, Node.js, Express.js, TypeScript, PostgreSQL, Redis, BullMQ, MongoDB, Mongoose, Prisma, React.js, Next.js, Docker, Git, GitHub, Vercel, Render, OpenAI, Gemini, REST APIs",
   },
   {
     icon: assets.edu_icon,
@@ -295,16 +366,21 @@ export const infoList = [
 export const toolsData = [
   assets.nest,
   assets.nodejs,
+  assets.express,
   assets.ts,
   assets.redis,
   assets.postgressql,
   assets.prisma,
-  assets.express,
-  assets.docker,
+
   assets.react,
   assets.next,
   assets.mongodb,
+
+  assets.vercel,
+  // assets.render,
+
   assets.artificial_intelligence,
+
   assets.git,
   assets.github,
   assets.postman,

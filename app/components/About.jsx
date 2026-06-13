@@ -217,7 +217,9 @@ const About = ({ isDarkMode }) => {
           <p className="mt-4">
             My experience spans backend architecture, distributed job processing,
             API development, database design, and AI integrations using modern LLM
-            technologies.
+            technologies. I have hands-on experience deploying applications on
+            Vercel and Render and continuously expanding my knowledge of cloud
+            infrastructure and modern deployment workflows.
           </p>
 
           <p className="mt-4">
