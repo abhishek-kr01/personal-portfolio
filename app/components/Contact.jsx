@@ -44,6 +44,9 @@ try {
   setResult("Network error. Please try again later.");
 } finally {
   setSending(false);
+  setTimeout(() => {
+    setResult("");
+  }, 5000);
 }
 };
 
