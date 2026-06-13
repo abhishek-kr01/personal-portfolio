@@ -139,13 +139,9 @@ function Header() {
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.7, delay: 0.4 }}
-        className="text-3xl sm:text-4xl lg:text-[42px] font-Ovo leading-tight"
+        className="text-3xl sm:text-4xl lg:text-[40px] font-Ovo leading-tight"
       >
         Founding Engineer & Full Stack Developer
-        <br />
-        <span className="text-gray-600 dark:text-white/70 text-base sm:text-xl lg:text-2xl">
-          Backend Systems • Modern Web Applications • AI
-        </span>
       </motion.h1>
 
       {/* Description */}
@@ -166,7 +162,10 @@ function Header() {
         <br />
         <br />
 
-        Currently working as a <strong>Founding Engineer</strong>, contributing to product development, backend architecture, AI-powered workflows, and engineering initiatives at an early-stage startup.
+        Currently working as a <strong>Founding Engineer</strong>, focusing on
+        distributed systems, event-driven architectures, background job
+        processing, AI integrations, and high-performance application
+        development.
       </motion.p>
 
       {/* CTA Buttons */}
