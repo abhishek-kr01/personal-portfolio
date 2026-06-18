@@ -16,7 +16,7 @@ const experienceData = [
     ],
   },
   {
-    role: "Full Stack Software Engineering Intern",
+    role: "Software Engineer Intern",
     company: "Lawyered",
     duration: "Jan 2026 – Apr 2026",
     location: "Gurugram, India (On-site)",
