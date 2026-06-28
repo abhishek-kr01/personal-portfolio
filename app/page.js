@@ -10,27 +10,27 @@ import Experience from "./components/Experience";
 import { useEffect, useState } from "react";
 
 export default function Home() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
+  // Load saved theme (default = dark)
   useEffect(() => {
-    if (
-      localStorage.theme === "dark" ||
-      (!("theme" in localStorage) &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches)
-    ) {
-      setIsDarkMode(true);
-    } else {
+    const savedTheme = localStorage.getItem("theme");
+
+    if (savedTheme === "light") {
       setIsDarkMode(false);
+    } else {
+      setIsDarkMode(true);
     }
   }, []);
 
+  // Apply theme
   useEffect(() => {
     if (isDarkMode) {
       document.documentElement.classList.add("dark");
-      localStorage.theme = "dark";
+      localStorage.setItem("theme", "dark");
     } else {
       document.documentElement.classList.remove("dark");
-      localStorage.theme = "";
+      localStorage.setItem("theme", "light");
     }
   }, [isDarkMode]);
 
